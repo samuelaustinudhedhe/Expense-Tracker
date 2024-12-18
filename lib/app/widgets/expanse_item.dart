@@ -1,4 +1,4 @@
-import 'package:expense_tracker/app/models/expanse_model.dart';
+import 'package:expense_tracker_2/app/models/expanse_model.dart';
 import 'package:flutter/material.dart';
 
 class ExpenseItem extends StatelessWidget {
@@ -29,7 +29,7 @@ class ExpenseItem extends StatelessWidget {
                   children: [
                     Text(
                       '₦${expense.amount.toStringAsFixed(2)}',
-                      style: TextStyle(fontSize: 18.0),
+                      style: const TextStyle(fontSize: 18.0),
                     ),
                   ],
                 ),
